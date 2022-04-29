@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+}
+
+:root{
+  --black: #000000;
+  --white: #FFFFFF;
+  --purple: #8257E5;
+  --purple-hover: #996DFF;
+
+}
+
+body {
+  width: 75%;
+  margin: 0 auto;
+  background-color: var(--black)
+}
+
+.head-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.menu ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 26.9rem;
+  list-style: none;
+  font-family: 'Manrope', sans-serif;
+  font-size: 0.8rem;
+  color: var(--white);
+  
+}
+.menu ul li {
+  cursor:pointer;
+  padding:0.5rem
+}
+
+.button > button {
+  width: 10.75rem;
+  height: 2.3rem;
+  color: var(--white);
+  border: 2px solid var(--purple);
+  border-radius: 6px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.button > button:hover{
+  background-color: var(--purple);
+}
+
+main > .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.container h1,
+.container h2{
+  color: var(--white);
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 3.7rem;
+  text-align: center;
+  
+}
+
+.container h2{
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--purple);
+  
+}
+
+.container .coffe {
+  width: 49.8rem;
+  height: 31.6rem;
+}
+
+
+.container .main-text {
+  margin-top: 1rem;
+}
+
